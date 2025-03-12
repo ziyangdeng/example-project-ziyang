@@ -80,7 +80,7 @@ totalrow <- regdata |>
 table1 <- bind_rows(table1, totalrow) 
 
 #look at the dataframe 
-table1
+print(table1)
 
 #use the KableExtra package to create a latex version of the table
 kbl(table1,
